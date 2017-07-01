@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+div[role='main'] {
+  background: #f7f7f7;
+  min-height: 100vh; }
+  div[role='main'] .btn-default {
+    width: 80%;
+    margin: 10px auto;
+    display: block; }
+  div[role='main'] table {
+    background: #fffff7;
+    width: 100%;
+    border: 1px solid #ddd;
+    table-layout: fixed; }
+    div[role='main'] table th {
+      background: #1abc9c;
+      color: #fffff7;
+      font-weight: 400; }
+      div[role='main'] table th:nth-child(2n-1) {
+        background: #16a085; }
+      div[role='main'] table th.text {
+        width: 55%; }
+      div[role='main'] table th.name {
+        width: 20%; }
+      div[role='main'] table th.functions {
+        width: 20%; }
+    div[role='main'] table td {
+      background: #fffff7;
+      vertical-align: middle;
+      text-align: center;
+      text-overflow: ellipsis;
+      overflow: hidden; }
+      div[role='main'] table td:nth-child(2n-1) {
+        background: #f7f7f7; }
+      div[role='main'] table td.name input {
+        text-align: center;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        background: transparent;
+        border: 1px solid #3498db; }
+      div[role='main'] table td.functions button {
+        margin-bottom: 5px; }
+      div[role='main'] table td.text {
+        text-align: justify; }
+        div[role='main'] table td.text textarea {
+          width: 100%;
+          padding: 5px;
+          text-align: justify;
+          background: transparent;
+          border: 1px solid #3498db; }
+
+/*# sourceMappingURL=style.css.map */
